@@ -1,0 +1,241 @@
+html {
+    background-color: white;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0;
+    margin-right: 0;
+}
+body {
+    margin: 0;
+}
+h1 {
+ font-family: "Montserrat", sans-serif;
+ color: #1d1d1d;
+}
+h2{
+    font-family: "EB Garamond", serif;
+    color: #1d1d1d;
+}
+h4 {
+    font-family: "Overpass Mono", monospace;
+    color: #1d1d1d;
+}
+h5{
+    font-family: "Overpass Mono", monospace;
+    color: #1d1d1d;
+}
+p {
+    font-family: "EB Garamond", serif;
+    }
+    .logoynombre {
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .logoynombre img {
+        width: 6%;
+        height: 10%;
+    }
+    .header{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .Portada {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 65vh;
+    }
+    .Portada h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 2.1em;
+        font-weight: 800;
+        }
+    .Portada h2 {
+        font-family: "EB Garamond", serif; 
+        font-size: 1.3em;
+        font-weight: 400;
+        }
+    button{
+        background-color: #4DADE1;
+        border: none;
+        }
+    .Portada button {
+        color: #ffffff;
+        font-family: "Overpass Mono", monospace;
+        font-size: 1.1em;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+    }
+    .Parrafos {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1em;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-image: url('img/arrow.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .negrita {
+        font-weight: bold;
+    }
+    .negritaM{
+        font-weight: bold;
+        color:#F61A77;
+    }
+    .negritaR{
+        font-weight: bold;
+        color:#F61A77;
+    }
+    .negritaC{
+        font-weight: bold;
+        color:#06C4F1;
+    }
+    .Parrafos img{
+        width: 10vh;
+        height: 100%;
+    }
+    .divisor {
+        margin-right: 10%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 0.7em;
+    }
+    .img-der{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .Parrafos p{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        background-color: white;
+        font-size: 1em;
+    }
+    .Parrafos h3{
+        padding: 1em;
+        font-family:"EB Garamond", serif;
+        font-size: 1.6em;
+        font-weight: 500;
+        font-style: italic;
+        text-align: center;
+        background-color: white;
+    }
+    .Bullets {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .bulletizq img{
+        width: 0.2em;
+        height: 3.5em;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        margin-right: 0.8em;
+    }
+    .bulletizq{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .bulletder img{
+        width: 0.2em;
+        height: 3.5em;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        margin-left: 0.8em;
+    }
+    .bulletder{
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;  
+    }
+    .Bullets h1{
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+    .Bullets h4{
+        font-family:"EB Garamond", serif;
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 50vh;
+        margin-left: 10%;
+        margin-right: 0%;
+        padding: 10%;
+        background-color: #1d1d1d;
+        color: white;
+        border-top-left-radius: 2em;
+        border-bottom-left-radius:2em;
+    }
+    .formulario h1{
+        color: #FF4F44;
+        font-size: 2 em;
+    }
+    .supporting-text {
+        font-size: 0.9em;
+        margin: 0;
+    }
+    .formulario label{
+        display: none;
+        font-size: 1.1em;
+    }
+
+    .formulario input{
+        width: 98.5%;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+        color: white;
+        font-size: 1em;
+    }
+    .formulario select{
+        width: 100%;
+        background-color: transparent;
+        color: white;
+        border: none;
+        border-bottom: 1px solid white;
+        font-size: 1em;
+    }
+    .formulario option{
+        background-color: #F2FBFF;
+        color: #1d1d1d;
+        font-size: 0.8em;
+    }
+    input::placeholder {
+        color: white;
+    }
